@@ -20,3 +20,15 @@ function testVar() {
 }
 
 testVar();
+
+
+/** 
+ * Showing errors for undefined var, let and const
+ */
+// console.log(fruit);
+// console.log(gender);
+console.log(country)
+
+// let fruit = "apple";
+// const gender = "male"
+var country = "Nigeria"

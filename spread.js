@@ -1,15 +1,17 @@
 // Example 1
 // ---------
-function sum(x, y, z) {
-  return x + y + z;
-}
+// function sum(x, y, z) {
+//   return x + y + z;
+// }
 
-let inputs = [1, 2, 3];
-// console.log(sum(...inputs));
+// let inputs = [1, 2, 3];
+// sum(...inputs);
 
 // Example 2
 // ---------
 // console.log(Math.max(...[-1, 100, 9001, -32])); // 9001
+// console.log(Math.max([-1, 100, 9001, -32])); // NaN
+// console.log(Math.max(-1, 100, 9001, -32)); // 9001
 
 // Example 3
 // ---------
@@ -21,7 +23,17 @@ let inputs = [1, 2, 3];
 
 // Example 4
 // ---------
-let cities = ['San Francisco', 'Los Angeles'];
-let places = ['Miami', 'Chicago', ...cities];
+// let cities = ['San Francisco', 'Los Angeles', 'Paris'];
+// let places = ['Miami', 'Chicago', ...cities];
+// let [a, ...rest] = cities
 
-console.log(places);
+// console.log(places, rest, cities, a);
+
+
+// Example 5
+// ---------
+// function summation(...args) {
+//   return args.reduce((acc, cur) => acc + cur, 0);
+// };
+
+// summation(1, 2, 3, 4, 5, 6, 7, 8, 10);
